@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techriderarun.tictactoe">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="com.techriderarun.tictactoe.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9812481436348003~6179243467"/>
+
+        <activity android:name="com.techriderarun.tictactoe.SettingsActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.techriderarun.tictactoe.TwoNameActivity"
+            android:windowSoftInputMode="adjustResize"
+
+            >   </activity>
+        <activity android:name="com.techriderarun.tictactoe.NameActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.techriderarun.tictactoe.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.techriderarun.tictactoe.ChooseActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name="com.techriderarun.tictactoe.SceneActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

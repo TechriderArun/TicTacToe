@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Tic Tac Toe</string>
+
+
+    <string name="player1nameHint">player1 name</string>
+    <string name="player2nameHint">player2 name</string>
+    <string name="action_settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="title_activity_afterstart">Tic Tac Toe</string>
+    <string name="banner_ad">ca-app-pub-9812481436348003/1248859722</string>
+    <string name="interstitial_ad">ca-app-pub-9812481436348003/4866161797</string>
+    <string name="feedback">techriderarun@gmail.com</string>
+
+</resources>
